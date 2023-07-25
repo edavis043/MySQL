@@ -1,6 +1,6 @@
 
 users:
-  - name: springboot-web
+  - name: edavis
     password: $MYSQL_SPRINGBOOTWEB_PASSWORD
   - name: wordpress
     password: $MYSQL_WORDPRESS_PASSWORD
@@ -11,7 +11,7 @@ databases:
   
 acl:
   - database: springboot_web
-    user: springboot-web
+    user: edavis
     access: ALL
   - database: wordpress
     user: wordpress
